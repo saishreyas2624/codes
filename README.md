@@ -31,3 +31,33 @@ else{
 }
 return 0;
 }
+
+
+
+SWITCH WITH MULTIPLE CASES
+#include <stdio.h>
+int main(){
+    
+    int number;
+    printf("enter your value : ");
+    scanf("%d" , &number);
+    
+    switch(number){
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    printf("weekdays");
+    break;
+    
+    case 5:
+    case 6:
+    printf("weekends");
+    break;
+    
+    default:
+    printf("invalid number");
+    
+    return 0;
+    }
+}
